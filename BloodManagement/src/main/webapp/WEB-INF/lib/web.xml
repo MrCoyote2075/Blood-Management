@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>InsertVictimData</servlet-name>
+        <servlet-class>com.blood.admin.victimdata</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsertVictimData</servlet-name>
+        <url-pattern>/insertvictimdata</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>firstpage.html</welcome-file>
+    </welcome-file-list>
+</web-app>
